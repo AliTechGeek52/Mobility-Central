@@ -1,0 +1,980 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobility Central - Admin Dashboard</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets\media\image\favicon.png">
+
+    <!-- Plugin styles -->
+    <link rel="stylesheet" href="vendors\bundle.css" type="text/css">
+
+    <!-- Datepicker -->
+    <link rel="stylesheet" href="vendors\datepicker\daterangepicker.css">
+
+    <!-- Vmap -->
+    <link rel="stylesheet" href="vendors\vmap\jqvmap.min.css">
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="assets\css\app.min.css" type="text/css">
+	
+	
+	<!-- Css -->
+<link rel="stylesheet" href="vendors/dataTable/dataTables.min.css" type="text/css">
+    
+	<!-- Morsis -->
+    <link rel="stylesheet" href="vendors\charts\morsis\morris.css" type="text/css">
+
+</head>
+<body>
+
+<!-- begin::preloader-->
+<div class="preloader">
+    <div class="preloader-icon"></div>
+</div>
+<!-- end::preloader -->
+
+<!-- begin::header -->
+<div class="header">
+
+    <div>
+        <ul class="navbar-nav">
+
+            <!-- begin::navigation-toggler -->
+            <li class="nav-item navigation-toggler">
+                <a href="#" class="nav-link" title="Hide navigation">
+                    <i data-feather="arrow-left"></i>
+                </a>
+            </li>
+            <li class="nav-item navigation-toggler mobile-toggler">
+                <a href="#" class="nav-link" title="Show navigation">
+                    <i data-feather="menu"></i>
+                </a>
+            </li>
+            <!-- end::navigation-toggler -->
+
+           <!-- <li class="nav-item">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Create</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">User</a>
+                    <a href="#" class="dropdown-item">Category</a>
+                    <a href="#" class="dropdown-item">Product</a>
+                    <a href="#" class="dropdown-item">Report</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Apps</a>
+                <div class="dropdown-menu dropdown-menu-big">
+                    <div class="p-3">
+                        <div class="row row-xs">
+                            <div class="col-6">
+                                <a href="chat.html">
+                                    <div class="p-3 border-radius-1 border text-center mb-3">
+                                        <i class="width-23 height-23" data-feather="message-circle"></i>
+                                        <div class="mt-2">Chat</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="inbox.html">
+                                    <div class="p-3 border-radius-1 border text-center mb-3">
+                                        <i class="width-23 height-23" data-feather="mail"></i>
+                                        <div class="mt-2">Mail</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="app-todo.html">
+                                    <div class="p-3 border-radius-1 border text-center">
+                                        <i class="width-23 height-23" data-feather="check-circle"></i>
+                                        <div class="mt-2">Todo</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="file-manager.html">
+                                    <div class="p-3 border-radius-1 border text-center">
+                                        <i class="width-23 height-23" data-feather="file"></i>
+                                        <div class="mt-2">File Manager</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>-->
+        </ul>
+    </div>
+
+    <div>
+        <ul class="navbar-nav">
+
+           
+
+            <!-- begin::header search -->
+            <li class="nav-item">
+                <a href="#" class="nav-link" title="Search" data-toggle="dropdown">
+                    <i data-feather="search"></i>
+                </a>
+                <div class="dropdown-menu p-2 dropdown-menu-right">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-prepend">
+                                <button class="btn" type="button">
+                                    <i data-feather="search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </li>
+            <!-- end::header search -->
+
+            <!-- begin::header minimize/maximize -->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link" title="Fullscreen" data-toggle="fullscreen">
+                    <i class="maximize" data-feather="maximize"></i>
+                    <i class="minimize" data-feather="minimize"></i>
+                </a>
+            </li>
+            <!-- end::header minimize/maximize -->
+
+            <!-- begin::header messages dropdown -->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link nav-link-notify" title="Chats" data-toggle="dropdown">
+                    <i data-feather="message-circle"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-big">
+                    <div class="p-4 text-center d-flex justify-content-between" data-backround-image="assets/media/image/image1.jpg">
+                        <h6 class="mb-0">Chats</h6>
+                        <small class="font-size-11 opacity-7">2 unread chats</small>
+                    </div>
+                    <div>
+                        <ul class="list-group list-group-flush">
+                            <li>
+                                <a href="#" class="list-group-item d-flex hide-show-toggler">
+                                    <div>
+                                        <figure class="avatar avatar-sm m-r-15">
+                                            <img src="assets\media\image\user\man_avatar1.jpg" class="rounded-circle" alt="user">
+                                        </figure>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 line-height-20 d-flex justify-content-between">
+                                            Herbie Pallatina
+                                            <i title="Mark as read" data-toggle="tooltip" class="hide-show-toggler-item fa fa-circle-o font-size-11"></i>
+                                        </p>
+                                        <div class="small text-muted">
+                                            <span class="mr-2">02:30 PM</span>
+                                            <span>Have you madimage</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="list-group-item d-flex align-items-center hide-show-toggler">
+                                    <div>
+                                        <figure class="avatar avatar-sm m-r-15">
+                                            <img src="assets\media\image\user\women_avatar5.jpg" class="rounded-circle" alt="user">
+                                        </figure>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 line-height-20 d-flex justify-content-between">
+                                            Andrei Miners
+                                            <i title="Mark as read" data-toggle="tooltip" class="hide-show-toggler-item fa fa-circle-o font-size-11"></i>
+                                        </p>
+                                        <div class="small text-muted">
+                                            <span class="mr-2">08:36 PM</span>
+                                            <span>I have a meetinimage</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="text-divider small pb-2 pl-3 pt-3">
+                                <span>Old chats</span>
+                            </li>
+                            <li>
+                                <a href="#" class="list-group-item d-flex align-items-center hide-show-toggler">
+                                    <div>
+                                        <figure class="avatar avatar-sm m-r-15">
+                                            <img src="assets\media\image\user\man_avatar3.jpg" class="rounded-circle" alt="user">
+                                        </figure>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 line-height-20 d-flex justify-content-between">
+                                            Kevin added
+                                            <i title="Mark as unread" data-toggle="tooltip" class="hide-show-toggler-item fa fa-check font-size-11"></i>
+                                        </p>
+                                        <div class="small text-muted">
+                                            <span class="mr-2">11:09 PM</span>
+                                            <span>Have you madimage</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="list-group-item d-flex hide-show-toggler">
+                                    <div>
+                                        <figure class="avatar avatar-sm m-r-15">
+                                            <img src="assets\media\image\user\man_avatar2.jpg" class="rounded-circle" alt="user">
+                                        </figure>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 line-height-20 d-flex justify-content-between">
+                                            Eugenio Carnelley
+                                            <i title="Mark as unread" data-toggle="tooltip" class="hide-show-toggler-item fa fa-check font-size-11"></i>
+                                        </p>
+                                        <div class="small text-muted">
+                                            <span class="mr-2">Yesterday</span>
+                                            <span>I have a meetinimage</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="list-group-item d-flex align-items-center hide-show-toggler">
+                                    <div>
+                                        <figure class="avatar avatar-sm m-r-15">
+                                            <img src="assets\media\image\user\women_avatar1.jpg" class="rounded-circle" alt="user">
+                                        </figure>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 line-height-20 d-flex justify-content-between">
+                                            Neely Ferdinand
+                                            <i title="Mark as unread" data-toggle="tooltip" class="hide-show-toggler-item fa fa-check font-size-11"></i>
+                                        </p>
+                                        <div class="small text-muted">
+                                            <span class="mr-2">Yesterday</span>
+                                            <span>I have a meetinimage</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-2 text-right">
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">
+                                <a href="#">Mark All Read</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <!-- end::header messages dropdown -->
+
+            <!-- begin::header notification dropdown -->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link nav-link-notify" title="Notifications" data-toggle="dropdown">
+                    <i data-feather="bell"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-big">
+                    <div class="p-4 text-center d-flex justify-content-between" data-backround-image="assets/media/image/image1.jpg">
+                        <h6 class="mb-0">Notifications</h6>
+                        <small class="font-size-11 opacity-7">1 unread notifications</small>
+                    </div>
+                    <div>
+                        <ul class="list-group list-group-flush">
+                            <li>
+                                <a href="#" class="list-group-item d-flex hide-show-toggler">
+                                    <div>
+                                        <figure class="avatar avatar-sm m-r-15">
+                                                <span class="avatar-title bg-success-bright text-success rounded-circle">
+                                                    <i class="ti-user"></i>
+                                                </span>
+                                        </figure>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 line-height-20 d-flex justify-content-between">
+                                            New customer registered
+                                            <i title="Mark as read" data-toggle="tooltip" class="hide-show-toggler-item fa fa-circle-o font-size-11"></i>
+                                        </p>
+                                        <span class="text-muted small">20 min ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="text-divider small pb-2 pl-3 pt-3">
+                                <span>Old notifications</span>
+                            </li>
+                            <li>
+                                <a href="#" class="list-group-item d-flex hide-show-toggler">
+                                    <div>
+                                        <figure class="avatar avatar-sm m-r-15">
+                                                <span class="avatar-title bg-warning-bright text-warning rounded-circle">
+                                                    <i class="ti-package"></i>
+                                                </span>
+                                        </figure>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 line-height-20 d-flex justify-content-between">
+                                            New Order Recieved
+                                            <i title="Mark as unread" data-toggle="tooltip" class="hide-show-toggler-item fa fa-check font-size-11"></i>
+                                        </p>
+                                        <span class="text-muted small">45 sec ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="list-group-item d-flex align-items-center hide-show-toggler">
+                                    <div>
+                                        <figure class="avatar avatar-sm m-r-15">
+                                                <span class="avatar-title bg-danger-bright text-danger rounded-circle">
+                                                    <i class="ti-server"></i>
+                                                </span>
+                                        </figure>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 line-height-20 d-flex justify-content-between">
+                                            Server Limit Reached!
+                                            <i title="Mark as unread" data-toggle="tooltip" class="hide-show-toggler-item fa fa-check font-size-11"></i>
+                                        </p>
+                                        <span class="text-muted small">55 sec ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="list-group-item d-flex align-items-center hide-show-toggler">
+                                    <div>
+                                        <figure class="avatar avatar-sm m-r-15">
+                                                <span class="avatar-title bg-info-bright text-info rounded-circle">
+                                                    <i class="ti-layers"></i>
+                                                </span>
+                                        </figure>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 line-height-20 d-flex justify-content-between">
+                                            Apps are ready for update
+                                            <i title="Mark as unread" data-toggle="tooltip" class="hide-show-toggler-item fa fa-check font-size-11"></i>
+                                        </p>
+                                        <span class="text-muted small">Yesterday</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-2 text-right">
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">
+                                <a href="#">Mark All Read</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <!-- end::header notification dropdown -->
+
+            <!-- begin::user menu -->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link" title="User menu" data-toggle="dropdown">
+                    <i data-feather="settings"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-big">
+                    <div class="p-4 text-center d-flex justify-content-between" data-backround-image="assets/media/image/image1.jpg">
+                        <h6 class="mb-0">Settings</h6>
+                    </div>
+                    <div>
+                        <!--<ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="">
+                                    <label class="custom-control-label" for="customSwitch1">Allow notifications.</label>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch2">
+                                    <label class="custom-control-label" for="customSwitch2">Hide user requests</label>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch3" checked="">
+                                    <label class="custom-control-label" for="customSwitch3">Speed up demands</label>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch4" checked="">
+                                    <label class="custom-control-label" for="customSwitch4">Hide menus</label>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch5">
+                                    <label class="custom-control-label" for="customSwitch5">Remember next visits</label>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch6">
+                                    <label class="custom-control-label" for="customSwitch6">Enable report generation.</label>
+                                </div>
+                            </li>
+                        </ul>-->
+                    </div>
+                </div>
+            </li>
+            <!-- end::user menu -->
+        </ul>
+
+        <!-- begin::mobile header toggler -->
+        <ul class="navbar-nav d-flex align-items-center">
+            <li class="nav-item header-toggler">
+                <a href="#" class="nav-link">
+                    <i data-feather="arrow-down"></i>
+                </a>
+            </li>
+        </ul>
+        <!-- end::mobile header toggler -->
+    </div>
+
+</div>
+<!-- end::header -->
+
+<!-- begin::main -->
+<div id="main">
+
+    <!-- begin::navigation -->
+    <div class="navigation">
+
+        <div class="navigation-menu-tab">
+            <div>
+                <div class="navigation-menu-tab-header" data-toggle="tooltip" title="Roxana Roussell" data-placement="right">
+                    <a href="#" class="nav-link" data-toggle="dropdown" aria-expanded="false">
+                        <figure class="avatar avatar-sm">
+                            <img src="assets\media\image\user\women_avatar1.jpg" class="rounded-circle" alt="avatar">
+                        </figure>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-big">
+                        <div class="p-3 text-center" data-backround-image="assets/media/image/image1.jpg">
+                            <figure class="avatar mb-3">
+                                <img src="assets\media\image\user\women_avatar1.jpg" class="rounded-circle" alt="image">
+                            </figure>
+                            <h6 class="d-flex align-items-center justify-content-center">
+                                Roxana Roussell
+                                <a href="#" class="btn btn-primary btn-sm ml-2" data-toggle="tooltip" title="Edit profile">
+                                    <i data-feather="edit-2"></i>
+                                </a>
+                            </h6>
+                            <small>Balance: <strong>$105</strong></small>
+                        </div>
+                        <div class="dropdown-menu-body">
+                            <div class="border-bottom p-4">
+                                <h6 class="text-uppercase font-size-11 d-flex justify-content-between">
+                                    Storage
+                                    <span>%25</span>
+                                </h6>
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="list-group list-group-flush">
+                                <a href="#" class="list-group-item">Profile</a>
+                                <a href="#" class="list-group-item d-flex">
+                                    Followers <span class="text-muted ml-auto">214</span>
+                                </a>
+                                <a href="#" class="list-group-item d-flex">
+                                    Inbox <span class="text-muted ml-auto">18</span>
+                                </a>
+                                <a href="#" class="list-group-item" data-sidebar-target="#settings">Billing</a>
+                                <a href="#" class="list-group-item" data-sidebar-target="#settings">Need help?</a>
+                                <a href="#" class="list-group-item text-danger" data-sidebar-target="#settings">Sign Out!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-grow-1">
+                <ul>
+                    <li>
+                        <a class="active" href="#" data-toggle="tooltip" data-placement="right" title="Dashboards" data-nav-target="#dashboards">
+                            <i data-feather="bar-chart-2"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right" title="Apps" data-nav-target="#apps">
+                            <i data-feather="command"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right" title="UI Elements" data-nav-target="#elements">
+                            <i data-feather="layers"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right" title="Pages" data-nav-target="#pages">
+                            <i data-feather="copy"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right" title="Settings">
+                            <i data-feather="settings"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="login.html" data-toggle="tooltip" data-placement="right" title="Logout">
+                            <i data-feather="log-out"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- begin::navigation menu -->
+        <div class="navigation-menu-body">
+
+            <!-- begin::navigation-logo -->
+            <div>
+                <div id="navigation-logo">
+                    <a href="index.html">
+                        <img class="logo" src="assets\media\image\logo.png" alt="logo">
+                        <img class="logo-light" src="assets\media\image\logo-light.png" alt="light logo">
+                    </a>
+                </div>
+            </div>
+            <!-- end::navigation-logo -->
+
+            <div class="navigation-menu-group">
+
+                <div class="open" id="dashboards">
+                    <ul>
+                        <!--<li class="navigation-divider">Home</li>-->
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="alertsoverview.html">Alerts</a></li>
+                        <!-- add href="analytics.html"-->
+                        <li><a href="analytics.html" class="active">Analytics</a></li> 
+                        <!-- add href="useroverview.html" -->
+                        <li class="list-group-item-info"><a href="people.html">People</a>
+							 
+						
+                        </li>
+                        <li class="text-center"><a href="useroverview.html" class="ml-4">Users</a></li>
+								<li><a href="#" class="ml-4">Mobility Packages</a></li>
+								<li><a href="#" class="ml-4">Mobility Groups</a></li>
+								<li><a href="#" class="ml-4">Policies</a></li>
+						
+						<li class="list-group-item-info"><a href="#">Inventory</a>
+			
+						
+                        </li>
+                        <li><a href="#" class="ml-4">Plans/Features Summary</a></li>
+								<li><a href="#" class="ml-4">Devices</a></li>
+								<li><a href="#" class="ml-4">Requests</a></li>
+								<li><a href="#" class="ml-4">Orders</a></li>
+								<li><a href="#" class="ml-4">Plans/Feature</a></li>
+								<li><a href="#" class="ml-4">Catalogs</a></li>
+						<li class="list-group-item-info"><a href="#">Spend</a>
+							
+						
+                        </li>
+                        <li><a href="#" class="ml-4">Plans/Features Spend</a></li>
+								<li><a href="#" class="ml-4">Pooling Spend</a></li>
+								<li><a href="#" class="ml-4">Bill Summary</a></li>
+								<li><a href="#" class="ml-4">User Summary</a></li>
+								<li><a href="#" class="ml-4">Bill Details</a></li>
+								<li><a href="#" class="ml-4">Teams</a></li>
+						<li class="list-group-item-info"><a href="#">Invoice</a>
+							
+						
+                        </li>
+                        <li><a href="#" class="ml-4">Invoice Details</a></li>
+						<li><a href="#">Reconcillation</a></li>
+						
+						
+                
+						
+						
+						
+						
+						
+                        <!--<li><a href="dashboard-two.html">Ecommerce <span class="badge badge-danger">2</span></a></li>
+                        <li><a href="dashboard-three.html">Analytics</a></li>
+                        <li><a href="dashboard-four.html">Project Management</a></li>
+                        <li><a href="dashboard-five.html">Helpdesk Management</a></li>
+                        <li class="navigation-divider">Contacts</li>
+                        <li>
+                            <div class="list-group list-group-flush">
+                                <a href="#" class="list-group-item d-flex align-items-center">
+                                    <div>
+                                        <div class="avatar avatar-sm m-r-10">
+                                            <img src="assets\media\image\user\man_avatar1.jpg" class="rounded-circle" alt="image">
+                                        </div>
+                                    </div>
+                                    <span>Valentine Maton</span>
+                                </a>
+                                <a href="#" class="list-group-item d-flex align-items-center">
+                                    <div>
+                                        <div class="avatar avatar-sm m-r-10">
+                                            <img src="assets\media\image\user\women_avatar2.jpg" class="rounded-circle" alt="image">
+                                        </div>
+                                    </div>
+                                    <span>Holmes Cherryman</span>
+                                </a>
+                                <a href="#" class="list-group-item d-flex align-items-center">
+                                    <div>
+                                        <div class="avatar avatar-sm m-r-10">
+                                            <img src="assets\media\image\user\women_avatar4.jpg" class="rounded-circle" alt="image">
+                                        </div>
+                                    </div>
+                                    <span>Kenneth Hune</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="navigation-divider">Followers</li>
+                        <li>
+                            <div class="avatar-group ml-4">
+                                <a href="#" class="avatar">
+                                    <span class="avatar-title bg-success rounded-circle">E</span>
+                                </a>
+                                <a href="#" class="avatar">
+                                    <img src="assets\media\image\user\women_avatar5.jpg" class="rounded-circle" alt="avatar">
+                                </a>
+                                <a href="#" class="avatar">
+                                    <img src="assets\media\image\user\women_avatar2.jpg" class="rounded-circle" alt="avatar">
+                                </a>
+                                <a href="#" class="avatar">
+                                    <span class="avatar-title bg-info rounded-circle">C</span>
+                                </a>
+                                <a href="#" class="avatar">
+                                    <span class="avatar-title bg-dark rounded-circle">+30</span>
+                                </a>
+                            </div>
+                        </li>-->
+                    </ul>
+                </div>
+                <div id="apps">
+                    <ul>
+                        <li class="navigation-divider">Web Apps</li>
+                      
+                    </ul>
+                </div>
+                <div id="elements">
+                    <ul>
+                        <li class="navigation-divider">UI Elements</li>
+                       
+                    </ul>
+                </div>
+                <div id="pages">
+                    <ul>
+                        <li class="navigation-divider">Pages</li>
+                        <li><a href="login.html">Login</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end::navigation menu -->
+
+    </div>
+    <!-- end::navigation -->
+
+    <!-- begin::main-content -->
+    <div class="main-content">
+
+        <!-- begin::page-header -->
+        <div class="page-header">
+            <div class="container-fluid d-sm-flex justify-content-between">
+                <h4>Home</h4>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#">Dashboard</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">Home</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- end::page-header -->
+
+        <!-- begin::page content -->
+        <div class="container-fluid">
+
+            
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                     
+					
+					
+					<div class="row">
+                        <div class="col-md-12">
+							<div class="card">
+								<div class="card-body">
+									<h6 class="card-title">Trending</h6>
+									
+										<p class="card-title">Trending requires all active carriers be published for the current month. One or more of your active carriers has not been published.</p>	 
+									
+					
+					
+                            
+										</div>
+									</div>
+									
+									
+									
+							<!------Modals--->
+							
+							<!-- .modal-lg -->
+<div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="exampleModal">
+  <div class="modal-dialog modal-lg  modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title">Large modal</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="ti-close"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
+        </button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------RefreshModals--->
+<div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="refreshModal">
+  <div class="modal-dialog modal-dialog-centered text-center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title">Alerts Overview - Error</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="ti-close"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>You must select at least one alert in order to "Refresh" the dashboard.</p>
+	
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">OK
+        </button>
+      </div>
+    </div>
+  </div>
+</div>	
+
+<!------send email Modals--->
+<div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="sendemailModal">
+  <div class="modal-dialog modal-dialog-centered text-center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title">Alerts Overview - Error</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="ti-close"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>You must select at least one alert in order to send notification emails to users.</p>
+		<p>Note: administrators will not receive an emailed alert.</p>
+	
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">OK
+        </button>
+      </div>
+    </div>
+  </div>
+</div>	
+						
+<!------Add alert Modals--->						
+<div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="addalertModal">
+  <div class="modal-dialog modal-dialog-centered text-center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title">Add Alert</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="ti-close"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>You can select a view to be run automatically after the carrier billing data has been published. Summary results will be posted on the Alerts Overview screen. A notification email will be sent to the Mobility Manager(s) when the view is run.</p>
+		<div class="form-group row mb-2">
+							<label for="staticEmail" class="col-sm-4 col-form-label">View Name:</label>
+							<div class="form-group col-sm-8">
+							  <select id="inputState" class="form-control">
+								<option selected>Choose...</option>
+								<option>...</option>
+							  </select>
+							</div>
+							
+							
+						  </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">OK
+        </button>
+		<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</div>	
+	
+
+
+<!------Delete Alert Modals--->
+<div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="deletealertModal">
+  <div class="modal-dialog modal-dialog-centered text-center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title">Alerts Overview - Error</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="ti-close"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Select alert(s) to be deleted by clicking the checkbox(s)</p>
+	
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">OK
+        </button>
+      </div>
+    </div>
+  </div>
+</div>	
+							
+							
+							<!------Modals--->
+							
+							
+						
+						
+						
+                
+                        </div>
+                    </div>
+					
+ 
+                    
+
+
+
+
+
+
+
+
+
+
+
+                   
+
+                </div>
+            </div>
+        </div>
+        <!-- end::page content -->
+
+        <!-- begin::footer -->
+        <footer>
+            <div class="container-fluid">
+                <div>© 2020 Protable v1.0.0 Made by <a href="#">Mobility Central</a></div>
+                <div>
+                    <nav class="nav">
+                        <a href="#" class="nav-link">Licenses</a>
+                        <a href="#" class="nav-link">Change Log</a>
+                        <a href="#" class="nav-link">Get Help</a>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+        <!-- end::footer -->
+
+    </div>
+    <!-- end::main-content -->
+
+</div>
+<!-- end::main -->
+
+<!-- Plugin scripts -->
+<script src="vendors\bundle.js"></script>
+
+<!-- Chartjs -->
+<script src="vendors\charts\chartjs\chart.min.js"></script>
+
+<!-- Apex chart -->
+<script src="vendors\charts\apex\apexcharts.min.js"></script>
+
+<!-- Circle progress -->
+<script src="vendors\circle-progress\circle-progress.min.js"></script>
+
+<!-- Peity -->
+<script src="vendors\charts\peity\jquery.peity.min.js"></script>
+<script src="assets\js\examples\charts\peity.js"></script>
+
+<!-- Datepicker -->
+<script src="vendors\datepicker\daterangepicker.js"></script>
+
+<!-- Slick -->
+<script src="vendors\slick\slick.min.js"></script>
+
+<!-- Vamp -->
+<script src="vendors\vmap\jquery.vmap.min.js"></script>
+<script src="vendors\vmap\maps\jquery.vmap.usa.js"></script>
+<script src="assets\js\examples\vmap.js"></script>
+
+<!-- Dashboard scripts -->
+<script src="assets\js\examples\dashboard.js"></script>
+<div class="colors"> <!-- To use theme colors with Javascript -->
+    <div class="bg-primary"></div>
+    <div class="bg-primary-bright"></div>
+    <div class="bg-secondary"></div>
+    <div class="bg-secondary-bright"></div>
+    <div class="bg-info"></div>
+    <div class="bg-info-bright"></div>
+    <div class="bg-success"></div>
+    <div class="bg-success-bright"></div>
+    <div class="bg-danger"></div>
+    <div class="bg-danger-bright"></div>
+    <div class="bg-warning"></div>
+    <div class="bg-warning-bright"></div>
+</div>
+
+<!-- App scripts -->
+<script src="assets/js/app.min.js"></script>
+
+<!-- Javascript -->
+<script src="vendors/dataTable/jquery.dataTables.min.js"></script>
+
+
+<!-- Morsis -->
+<script src="vendors\charts\morsis\raphael-2.1.4.min.js"></script>
+<script src="vendors\charts\morsis\morris.min.js"></script>
+<script src="assets\js\examples\charts\morsis.js"></script>
+<script src="assets\js\examples\charts\apex.js"></script>
+
+
+
+<!-- Bootstrap 4 and responsive compatibility -->
+<script src="vendors/dataTable/dataTables.bootstrap4.min.js"></script>
+<script src="vendors/dataTable/dataTables.responsive.min.js"></script>
+<script src="assets/js/examples/datatable.js"></script>
+
+
+ 
+
+<!---script for datatable---->
+<script>
+$(document).ready(function (){
+    $('#alertsoverview').DataTable();
+});
+
+</script>
+
+</body>
+</html>
