@@ -522,7 +522,7 @@
                         <!-- add href="analytics.html"-->
                         <li><a href="analytics.html">Analytics</a></li> 
                         <!-- add href="useroverview.html" -->
-                        <li class="list-group-item-info"><a href="people.html" class="active">People</a>
+                        <li class="list-group-item-info"><a href="people.html">People</a>
 							 
 						
                         </li>
@@ -535,8 +535,8 @@
 			
 						
                         </li>
-                        <li><a href="#" class="ml-4">Plans/Features Summary</a></li>
-								<li><a href="#" class="ml-4">Devices</a></li>
+                        <li><a href="plans.html" class="ml-4 active">Plans/Features Summary</a></li>
+								<li><a href="devices.html" class="ml-4">Devices</a></li>
 								<li><a href="#" class="ml-4">Requests</a></li>
 								<li><a href="#" class="ml-4">Orders</a></li>
 								<li><a href="#" class="ml-4">Plans/Feature</a></li>
@@ -820,22 +820,79 @@
                                        <a class="nav-link active" id="overview-tab" data-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-selected="true">Overview</a>
                                     </li>
                                     <li class="nav-item">
-                                       <a class="nav-link" id="manage-tab" data-toggle="tab" href="#manage" role="tab" aria-controls="manage" aria-selected="false">Manage</a>
+                                       <a class="nav-link" id="manage-tab" data-toggle="tab" href="#manage" role="tab" aria-controls="manage" aria-selected="false">Devices</a>
                                     </li>
                                     <li class="nav-item">
-                                       <a class="nav-link" id="access-privilages-tab" data-toggle="tab" href="#access-privilages" role="tab" aria-controls="access-privilages" aria-selected="false">Access Privileges</a>
+                                       <a class="nav-link" id="manage-tab" data-toggle="tab" href="#manage" role="tab" aria-controls="manage" aria-selected="false">Plans/Features</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="access-privilages-tab" data-toggle="tab" href="#access-privilages" role="tab" aria-controls="access-privilages" aria-selected="false">Device History</a>
+                                     </li>
+                                     <li class="nav-item">
+                                        <a class="nav-link" id="access-privilages-tab" data-toggle="tab" href="#access-privilages" role="tab" aria-controls="access-privilages" aria-selected="false">Requests</a>
+                                     </li>
+                                     <li class="nav-item">
+                                        <a class="nav-link" id="access-privilages-tab" data-toggle="tab" href="#access-privilages" role="tab" aria-controls="access-privilages" aria-selected="false">Orders</a>
+                                     </li>
                                  </ul>
                                  <div class="tab-content">
                                     <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
-                                       <h6 class="card-title">Monthly Snapshot for Feb-19</h6>
+                                       <h6 class="card-title">Inventory Snapshot</h6>
                                        <div class="row">
                                           <div class="col-md-2">
                                              <div class="card">
                                                 <div class="card-body">
                                                    <div class="d-flex align-items-center justify-content-between">
                                                       <div>
-                                                         <p class="card-title mb-3">Users added  (last 30 days)</p>
+                                                         <p class="card-title mb-3">All Inventory</p>
+                                                         <div class="d-flex d-sm-block d-lg-flex align-items-end">
+                                                            <h2 class="mb-0 mr-2 font-weight-bold">2,892</h2>
+                                                         </div>
+                                                      </div>
+                                                      <div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="card">
+                                                <div class="card-body">
+                                                   <div class="d-flex align-items-center justify-content-between">
+                                                      <div>
+                                                         <p class="card-title mb-3">Total Devices</p>
+                                                         <div class="d-flex d-sm-block d-lg-flex align-items-end">
+                                                            <h2 class="mb-0 mr-2 font-weight-bold">2,717</h2>
+                                                         </div>
+                                                      </div>
+                                                      <div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="card">
+                                                <div class="card-body">
+                                                   <div class="d-flex align-items-center justify-content-between">
+                                                      <div>
+                                                         <p class="card-title mb-3">Allocated Devices</p>
+                                                         <div class="d-flex d-sm-block d-lg-flex align-items-end">
+                                                            <h2 class="mb-0 mr-2 font-weight-bold">2,717</h2>
+                                                         </div>
+                                                      </div>
+                                                      <div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="card">
+                                                <div class="card-body">
+                                                   <div class="d-flex align-items-center justify-content-between">
+                                                      <div>
+                                                         <p class="card-title mb-3">Unallocated Inventory Incurring Spend</p>
                                                          <div class="d-flex d-sm-block d-lg-flex align-items-end">
                                                             <h2 class="mb-0 mr-2 font-weight-bold">0</h2>
                                                          </div>
@@ -851,9 +908,9 @@
                                                 <div class="card-body">
                                                    <div class="d-flex align-items-center justify-content-between">
                                                       <div>
-                                                         <p class="card-title mb-3">Users deactivated  (last 30 days)</p>
+                                                         <p class="card-title mb-3">Standalone Mobile # Allocated to User</p>
                                                          <div class="d-flex d-sm-block d-lg-flex align-items-end">
-                                                            <h2 class="mb-0 mr-2 font-weight-bold">0</h2>
+                                                            <h2 class="mb-0 mr-2 font-weight-bold">24</h2>
                                                          </div>
                                                       </div>
                                                       <div>
@@ -867,57 +924,9 @@
                                                 <div class="card-body">
                                                    <div class="d-flex align-items-center justify-content-between">
                                                       <div>
-                                                         <p class="card-title mb-3">Users without managers</p>
+                                                         <p class="card-title mb-3">Inventory Allocated to Users with Multiple Inventory Items</p>
                                                          <div class="d-flex d-sm-block d-lg-flex align-items-end">
-                                                            <h2 class="mb-0 mr-2 font-weight-bold">29</h2>
-                                                         </div>
-                                                      </div>
-                                                      <div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="col-md-2">
-                                             <div class="card">
-                                                <div class="card-body">
-                                                   <div class="d-flex align-items-center justify-content-between">
-                                                      <div>
-                                                         <p class="card-title mb-3">Users with Multiple Devices</p>
-                                                         <div class="d-flex d-sm-block d-lg-flex align-items-end">
-                                                            <h2 class="mb-0 mr-2 font-weight-bold">45</h2>
-                                                         </div>
-                                                      </div>
-                                                      <div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="col-md-2">
-                                             <div class="card">
-                                                <div class="card-body">
-                                                   <div class="d-flex align-items-center justify-content-between">
-                                                      <div>
-                                                         <h6 class="card-title mb-3">Total Monthly Budget</h6>
-                                                         <div class="d-flex d-sm-block d-lg-flex align-items-end">
-                                                            <h2 class="mb-0 mr-2 font-weight-bold">$230,670.00</h2>
-                                                         </div>
-                                                      </div>
-                                                      <div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="col-md-2">
-                                             <div class="card">
-                                                <div class="card-body">
-                                                   <div class="d-flex align-items-center justify-content-between">
-                                                      <div>
-                                                         <h6 class="card-title mb-3">Users Welcomed  (last 30 days)</h6>
-                                                         <div class="d-flex d-sm-block d-lg-flex align-items-end">
-                                                            <h2 class="mb-0 mr-2 font-weight-bold">0</h2>
+                                                            <h2 class="mb-0 mr-2 font-weight-bold">111</h2>
                                                          </div>
                                                       </div>
                                                       <div>
@@ -1257,120 +1266,104 @@
                                        <!-----End  Spend by Device Type section ---->
                                        <div class="card">
                                           <div class="card-body">
-                                             <h6 class="card-title mb-3">User Summary</h6>
+                                             <h6 class="card-title mb-3"> Inventory Monitor: Billed Devices</h6>
                                              <table id="myTable" class="table ">
                                                 <thead>
                                                    <tr class="table-info">
-                                                      <th>MC User Status</th>
-                                                      <th>Wireless Users</th>
-                                                      <th>Non-Wireless Users</th>
-                                                      <th>Total Users</th>
+                                                      <th>By Device Types</th>
+                                                      <th>Allocated</th>
+                                                      <th>Unallocated</th>
+                                                      <th>Total Devices</th>
                                                    </tr>
                                                 </thead>
                                                 <tbody>
                                                    <tr>
-                                                      <td>Incomplete</td>
+                                                      <td>Basic Phone</td>
+                                                      <td>50</td>
                                                       <td>0</td>
-                                                      <td>0</td>
-                                                      <td>0</td>
+                                                      <td>50</td>
                                                    </tr>
                                                    <tr>
-                                                      <td>New</td>
-                                                      <td>2,659</td>
-                                                      <td>532</td>
-                                                      <td>3,191</td>
-                                                   </tr>
-                                                   <tr>
-                                                      <td>Welcomed</td>
+                                                      <td>Embedded Modem</td>
+                                                      <td>1</td>
                                                       <td>0</td>
-                                                      <td>24</td>
-                                                      <td>24</td>
+                                                      <td>1</td>
                                                    </tr>
                                                    <tr>
-                                                      <td>Active</td>
+                                                      <td>Femtocell</td>
+                                                      <td>1</td>
                                                       <td>0</td>
-                                                      <td>4</td>
-                                                      <td>4</td>
+                                                      <td>1</td>
                                                    </tr>
                                                    <tr>
-                                                      <td>Deactivated</td>
-                                                      <td>16</td>
-                                                      <td>3</td>
-                                                      <td>19</td>
+                                                      <td>Handheld</td>
+                                                      <td>14</td>
+                                                      <td>0</td>
+                                                      <td>14</td>
                                                    </tr>
+                                                   <tr>
+                                                      <td>M2M</td>
+                                                      <td>5</td>
+                                                      <td>0</td>
+                                                      <td>5</td>
+                                                   </tr>
+                                                   <tr>
+                                                    <td>Mobile Hotspot</td>
+                                                    <td>316</td>
+                                                    <td>0</td>
+                                                    <td>316</td>
+                                                 </tr>
+                                                 <tr>
+                                                    <td>Smartphone</td>
+                                                    <td>1758</td>
+                                                    <td>0</td>
+                                                    <td>1758</td>
+                                                 </tr>
+                                                 <tr>
+                                                    <td>Tablet</td>
+                                                    <td>182</td>
+                                                    <td>0</td>
+                                                    <td>182</td>
+                                                 </tr>
+                                                 <tr>
+                                                    <td>USB Modem</td>
+                                                    <td>5</td>
+                                                    <td>0</td>
+                                                    <td>5</td>
+                                                 </tr>
                                                    <tr>
                                                       <th>Total</th>
-                                                      <th>2,675</th>
-                                                      <th>563</th>
-                                                      <th>3238</th>
+                                                      <th>2,332</th>
+                                                      <th>0</th>
+                                                      <th>2,332</th>
                                                    </tr>
                                                 </tbody>
                                              </table>
                                           </div>
                                        </div>
+                                    
                                        <div class="card">
                                           <div class="card-body">
-                                             <h6 class="card-title mb-3">User Change Summary</h6>
+                                             <h6 class="card-title mb-3"> Inventory Details</h6>
                                              <table id="myTable" class="table ">
                                                 <thead>
                                                    <tr class="table-info">
-                                                      <th>Event</th>
-                                                      <th>Bulk Upload</th>
-                                                      <th>Manual Edit</th>
-                                                      <th>Total</th>
+                                                      <th>By Entity States</th>
+                                                      <th>Allocated</th>
+                                                      <th>UnAllocated</th>
+                                                      <th>Total(Allocated & Unallocated)</th>
+                                                      <th>Suspended</th>
+                                                      <th>Incurring Speed</th>
                                                    </tr>
                                                 </thead>
                                                 <tbody>
                                                    <tr>
-                                                      <td>Added</td>
-                                                      <td>0</td>
-                                                      <td>0</td>
-                                                      <td>0</td>
-                                                   </tr>
-                                                   <tr>
-                                                      <td>Deactivated</td>
-                                                      <td>0</td>
-                                                      <td>0</td>
-                                                      <td>0</td>
-                                                   </tr>
-                                                   <tr>
-                                                      <td>Missing</td>
-                                                      <td>3237</td>
-                                                      <td>N/A</td>
-                                                      <td>3237</td>
-                                                   </tr>
-                                                   <tr>
-                                                      <td>Synced</td>
-                                                      <td>0</td>
-                                                      <td>N/A</td>
-                                                      <td>0</td>
-                                                   </tr>
-                                                </tbody>
-                                             </table>
-                                          </div>
-                                       </div>
-                                       <div class="card">
-                                          <div class="card-body">
-                                             <h6 class="card-title mb-3">Mobility Group Summary</h6>
-                                             <table id="myTable" class="table ">
-                                                <thead>
-                                                   <tr class="table-info">
-                                                      <th>Mobility Group</th>
-                                                      <th>Monthly User Budget</th>
-                                                      <th>Billed Users</th>
-                                                      <th>Monthly Device Budgets	</th>
-                                                      <th>Billed Devices</th>
-                                                      <th>Total Monthly Budget</th>
-                                                   </tr>
-                                                </thead>
-                                                <tbody>
-                                                   <tr>
-                                                      <td>Executive</td>
-                                                      <td>$500.00</td>
+                                                      <td>Device+SIM+Mobile#</td>
+                                                      <td>2717</td>
                                                       <td>7</td>
                                                       <td>N/A</td>
                                                       <td>N/A</td>
-                                                      <td>$3,500.00</td>
+                                                      <td>$3,500</td>
                                                    </tr>
                                                    <tr>
                                                       <td>High Users</td>
@@ -1380,54 +1373,54 @@
                                                          <table id="myTable" class="table table-borderless">
                                                             <tbody>
                                                                <tr>
-                                                                  <td>GPS:</td>
+                                                                  
                                                                   <td>$20.00</td>
                                                                </tr>
                                                                <tr>
-                                                                  <td>Unassigned:</td>
+                                                                  
                                                                   <td>$20.00</td>
                                                                </tr>
                                                                <tr>
-                                                                  <td>Embedded Modem:</td>
+                                                                  
                                                                   <td>$20.00</td>
                                                                </tr>
                                                                <tr>
-                                                                  <td>Femtocell:</td>
-                                                                  <td>$20.00</td>
-                                                               </tr>
-                                                               <tr>
-                                                               <tr>
-                                                                  <td>Handheld:</td>
+                                                                  
                                                                   <td>$20.00</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>Mobile Hotspot:</td>
+                                                                  
                                                                   <td>$20.00</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>Smartphone:</td>
+                                                                 
                                                                   <td>$20.00</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>M2M:</td>
+                                                                 
                                                                   <td>$20.00</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>USB Modem:</td>
+                                                                  
                                                                   <td>$20.00</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>Basic Phone:</td>
+                                                                  
                                                                   <td>$20.00</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>Tablet:</td>
+                                                                
+                                                                  <td>$20.00</td>
+                                                               </tr>
+                                                               <tr>
+                                                               <tr>
+                                                                 
                                                                   <td>$20.00</td>
                                                                </tr>
                                                                <tr>
@@ -1438,54 +1431,54 @@
                                                          <table id="myTable" class="table table-borderless">
                                                             <tbody>
                                                                <tr>
-                                                                  <td>GPS -</td>
+                                                                 
                                                                   <td>0</td>
                                                                </tr>
                                                                <tr>
-                                                                  <td>Unassigned -</td>
+                                                                  
                                                                   <td>0</td>
                                                                </tr>
                                                                <tr>
-                                                                  <td>Embedded Modem -</td>
+                                                                  
                                                                   <td>0</td>
                                                                </tr>
                                                                <tr>
-                                                                  <td>Femtocell -</td>
-                                                                  <td>0</td>
-                                                               </tr>
-                                                               <tr>
-                                                               <tr>
-                                                                  <td>Handheld -</td>
+                                                                  
                                                                   <td>0</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>Mobile Hotspot -</td>
+                                                                  
                                                                   <td>0</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>Smartphone -</td>
+                                                                  
                                                                   <td>0</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>M2M -</td>
+                                                                  
                                                                   <td>0</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>USB Modem -</td>
+                                                                 
                                                                   <td>0</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>Basic Phone -</td>
+                                                                 
                                                                   <td>0</td>
                                                                </tr>
                                                                <tr>
                                                                <tr>
-                                                                  <td>Tablet -</td>
+                                                                  
+                                                                  <td>0</td>
+                                                               </tr>
+                                                               <tr>
+                                                               <tr>
+                                                                  
                                                                   <td>0</td>
                                                                </tr>
                                                                <tr>
@@ -1875,14 +1868,32 @@
                                                 <div class="card-body p-0">
                                                    <form>
                                                       <div class="form-group row">
-                                                         <label for="staticEmail" class="mr-2 ml-2 col-form-label">View Name:</label>
+                                                         <label for="staticEmail" class="mr-2 ml-2 col-form-label">View :</label>
                                                          <div class="form-group">
                                                             <select id="inputState" class="form-control">
                                                                <option selected>All Users</option>
-                                                               <option>Current Users</option>
-                                                               <option>Users Without Managers</option>
-                                                               <option>Wireless Users</option>
-                                                               <option>Non-Wirless Users</option>
+                                                               <option>New</option>
+                                                               <option>Welcome</option>
+                                                               <option>Active</option>
+                                                               <option>...</option>
+                                                               <option>...</option>
+                                                            </select>
+                                                         </div>
+                                                         <div class="form-group">
+                                                            <select id="inputState" class="form-control">
+                                                               <option selected>Any Status</option>
+                                                               <option>New</option>
+                                                               <option>Welcome</option>
+                                                               <option>Active</option>
+                                                               <option>...</option>
+                                                            </select>
+                                                         </div>
+                                                         <div class="form-group">
+                                                            <select id="inputState" class="form-control">
+                                                               <option selected>Any Status</option>
+                                                               <option>New</option>
+                                                               <option>Welcome</option>
+                                                               <option>Active</option>
                                                                <option>...</option>
                                                             </select>
                                                          </div>
@@ -1907,11 +1918,9 @@
                                                       <div class="btn-group" role="group" aria-label="Default button group">
                                                          <button type="button" class="btn btn-primary mr-2">Send Emails</button>
                                                          <button type="button" class="btn btn-primary mr-2">Export to Excel</button>
-                                                         <button type="button" class="btn btn-primary mr-2">Load Users</button>
-                                                         <button type="button" class="btn btn-primary mr-2">Add</button>
-                                                         <button type="button" class="btn btn-primary mr-2">Activate</button>
-                                                         <button type="button" class="btn btn-primary mr-2">Deactivate</button>
-                                                         <button type="button" class="btn btn-primary">Welcome Users</button>
+                                                         <button type="button" class="btn btn-primary mr-2">Email Report</button>
+                                                        
+                                                    
                                                       </div>
                                                    </form>
                                                    <table id="alertsoverview" class="table table-striped table-bordered">
