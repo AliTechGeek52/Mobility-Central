@@ -9104,7 +9104,7 @@
 
 .icon-block.icon-block-outline-primary {
     border: 2px solid #498630;
-    color: #1565c0!important;
+    color: #498630!important;
     background: 0 0
 }
 
@@ -9335,7 +9335,7 @@ textarea {
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before, .custom-radio .custom-control-input:checked~.custom-control-label::before, .custom-switch .custom-control-input:checked~.custom-control-label::before {
     border-color: #498630;
-    background-color: #1565c0
+    background-color: #498630
 }
 
 .custom-checkbox .custom-control-input:focus~.custom-control-label::before, .custom-radio .custom-control-input:focus~.custom-control-label::before, .custom-switch .custom-control-input:focus~.custom-control-label::before {
@@ -9454,7 +9454,7 @@ textarea {
 }
 
 .custom-range::-webkit-slider-thumb {
-    background-color: #1565c0
+    background-color: #498630
 }
 
 .custom-range::-webkit-slider-thumb:active {
@@ -9561,7 +9561,7 @@ textarea {
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .wizard>.steps .current .list-group-item.active, .chat-block .chat-sidebar .chat-sidebar-content .list-group .wizard>.steps .current .list-group-item.active:active, .chat-block .chat-sidebar .chat-sidebar-content .list-group .wizard>.steps .current .list-group-item.active:hover, .header form .input-group .input-group-append .wizard>.steps .current button.btn, .header form .input-group .input-group-append .wizard>.steps .current button.btn:active, .header form .input-group .input-group-append .wizard>.steps .current button.btn:hover, .wizard>.steps .current .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active, .wizard>.steps .current .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active:active, .wizard>.steps .current .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active:hover, .wizard>.steps .current .header form .input-group .input-group-append button.btn, .wizard>.steps .current .header form .input-group .input-group-append button.btn:active, .wizard>.steps .current .header form .input-group .input-group-append button.btn:hover, .wizard>.steps .current a, .wizard>.steps .current a:active, .wizard>.steps .current a:hover {
-    background: #1565c0
+    background: #498630
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .wizard>.steps .error .list-group-item.active, .chat-block .chat-sidebar .chat-sidebar-content .list-group .wizard>.steps .error .list-group-item.active:active, .chat-block .chat-sidebar .chat-sidebar-content .list-group .wizard>.steps .error .list-group-item.active:hover, .header form .input-group .input-group-append .wizard>.steps .error button.btn, .header form .input-group .input-group-append .wizard>.steps .error button.btn:active, .header form .input-group .input-group-append .wizard>.steps .error button.btn:hover, .wizard>.steps .error .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active, .wizard>.steps .error .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active:active, .wizard>.steps .error .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active:hover, .wizard>.steps .error .header form .input-group .input-group-append button.btn, .wizard>.steps .error .header form .input-group .input-group-append button.btn:active, .wizard>.steps .error .header form .input-group .input-group-append button.btn:hover, .wizard>.steps .error a, .wizard>.steps .error a:active, .wizard>.steps .error a:hover {
@@ -9747,7 +9747,7 @@ textarea {
 }
 
 .bg-primary {
-    background: #1565c0!important;
+    background: #498630!important;
     color: #fff!important
 }
 
@@ -9767,10 +9767,10 @@ textarea {
 }
 
 .bg-primary-gradient {
-    background: -webkit-linear-gradient(220deg, #1565c0, #3d8de8)!important;
-    background: -moz- oldlinear-gradient(220deg, #1565c0, #3d8de8)!important;
-    background: -o-linear-gradient(220deg, #1565c0, #3d8de8)!important;
-    background: linear-gradient(230deg, #1565c0, #3d8de8)!important;
+    background: -webkit-linear-gradient(220deg, #498630, #3d8de8)!important;
+    background: -moz- oldlinear-gradient(220deg, #498630, #3d8de8)!important;
+    background: -o-linear-gradient(220deg, #498630, #3d8de8)!important;
+    background: linear-gradient(230deg, #498630, #3d8de8)!important;
     color: #fff!important
 }
 
@@ -10057,7 +10057,7 @@ textarea {
 }
 
 .text-primary {
-    color: #1565c0!important
+    color: #498630!important
 }
 
 .text-secondary {
@@ -10279,7 +10279,7 @@ p {
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .link-1.list-group-item.active, .header form .input-group .input-group-append button.link-1.btn, a.link-1 {
-    color: #1565c0
+    color: #498630
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .link-1.list-group-item.active:focus, .chat-block .chat-sidebar .chat-sidebar-content .list-group .link-1.list-group-item.active:hover, .header form .input-group .input-group-append button.link-1.btn:focus, .header form .input-group .input-group-append button.link-1.btn:hover, a.link-1:focus, a.link-1:hover {
@@ -10291,7 +10291,7 @@ p {
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .link-2.list-group-item.active:focus, .chat-block .chat-sidebar .chat-sidebar-content .list-group .link-2.list-group-item.active:hover, .header form .input-group .input-group-append button.link-2.btn:focus, .header form .input-group .input-group-append button.link-2.btn:hover, a.link-2:focus, a.link-2:hover {
-    color: #1565c0
+    color: #498630
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .link-3.list-group-item.active, .header form .input-group .input-group-append button.link-3.btn, a.link-3 {
@@ -10299,7 +10299,7 @@ p {
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .link-3.list-group-item.active:focus, .chat-block .chat-sidebar .chat-sidebar-content .list-group .link-3.list-group-item.active:hover, .header form .input-group .input-group-append button.link-3.btn:focus, .header form .input-group .input-group-append button.link-3.btn:hover, a.link-3:focus, a.link-3:hover {
-    color: #1565c0
+    color: #498630
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active:not(.active.list-group-item), .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active:not(.btn):active, .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active:not(.btn):focus, .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active:not(.btn):hover, .header form .input-group .input-group-append button.btn:not(.active.list-group-item), .header form .input-group .input-group-append button.btn:not(.btn):active, .header form .input-group .input-group-append button.btn:not(.btn):focus, .header form .input-group .input-group-append button.btn:not(.btn):hover, a:not(.active.list-group-item), a:not(.btn):active, a:not(.btn):focus, a:not(.btn):hover {
@@ -10313,7 +10313,7 @@ p {
 }
 
 .page-link {
-    color: #1565c0
+    color: #498630
 }
 
 .page-link:not(:disabled):not(.disabled):focus {
@@ -10456,7 +10456,7 @@ p {
 
 .btn.btn-primary, .chat-block .chat-sidebar .chat-sidebar-content .list-group .btn.list-group-item.active[href="#next"], .chat-block .chat-sidebar .chat-sidebar-content .list-group .btn.list-group-item.active[href="#previous"], .header form .input-group .input-group-append button.btn[href="#next"], .header form .input-group .input-group-append button.btn[href="#previous"], a.btn[href="#next"], a.btn[href="#previous"] {
     background: #498630;
-    border-color: #1565c0
+    border-color: #498630;
 }
 
 .btn.btn-primary:not(:disabled):not(.disabled):active, .btn.btn-primary:not(:disabled):not(.disabled):focus, .btn.btn-primary:not(:disabled):not(.disabled):hover, .chat-block .chat-sidebar .chat-sidebar-content .list-group .btn.list-group-item.active:not(:disabled):not(.disabled):active[href="#next"], .chat-block .chat-sidebar .chat-sidebar-content .list-group .btn.list-group-item.active:not(:disabled):not(.disabled):active[href="#previous"], .chat-block .chat-sidebar .chat-sidebar-content .list-group .btn.list-group-item.active:not(:disabled):not(.disabled):focus[href="#next"], .chat-block .chat-sidebar .chat-sidebar-content .list-group .btn.list-group-item.active:not(:disabled):not(.disabled):focus[href="#previous"], .chat-block .chat-sidebar .chat-sidebar-content .list-group .btn.list-group-item.active:not(:disabled):not(.disabled):hover[href="#next"], .chat-block .chat-sidebar .chat-sidebar-content .list-group .btn.list-group-item.active:not(:disabled):not(.disabled):hover[href="#previous"], .header form .input-group .input-group-append button.btn:not(:disabled):not(.disabled):active[href="#next"], .header form .input-group .input-group-append button.btn:not(:disabled):not(.disabled):active[href="#previous"], .header form .input-group .input-group-append button.btn:not(:disabled):not(.disabled):focus[href="#next"], .header form .input-group .input-group-append button.btn:not(:disabled):not(.disabled):focus[href="#previous"], .header form .input-group .input-group-append button.btn:not(:disabled):not(.disabled):hover[href="#next"], .header form .input-group .input-group-append button.btn:not(:disabled):not(.disabled):hover[href="#previous"], a.btn:not(:disabled):not(.disabled):active[href="#next"], a.btn:not(:disabled):not(.disabled):active[href="#previous"], a.btn:not(:disabled):not(.disabled):focus[href="#next"], a.btn:not(:disabled):not(.disabled):focus[href="#previous"], a.btn:not(:disabled):not(.disabled):hover[href="#next"], a.btn:not(:disabled):not(.disabled):hover[href="#previous"] {
@@ -10491,10 +10491,10 @@ p {
 }
 
 .btn.btn-gradient-primary:not(:disabled):not(.disabled):active, .btn.btn-gradient-primary:not(:disabled):not(.disabled):focus, .btn.btn-gradient-primary:not(:disabled):not(.disabled):hover {
-    background: -webkit-linear-gradient(70deg, #1565c0, #0656b1);
-    background: -moz- oldlinear-gradient(70deg, #1565c0, #0656b1);
-    background: -o-linear-gradient(70deg, #1565c0, #0656b1);
-    background: linear-gradient(20deg, #1565c0, #0656b1);
+    background: -webkit-linear-gradient(70deg, #498630, #0656b1);
+    background: -moz- oldlinear-gradient(70deg, #498630, #0656b1);
+    background: -o-linear-gradient(70deg, #498630, #0656b1);
+    background: linear-gradient(20deg, #498630, #0656b1);
     border-color: transparent
 }
 
@@ -12302,7 +12302,7 @@ p {
 }
 
 .progress .progress-bar:not(.progress-bar-striped) {
-    background: #1565c0
+    background: #498630
 }
 
 .dropdown {
@@ -12393,7 +12393,7 @@ p {
 .dropdown-menu .dropdown-item:active, .dropdown-menu .dropdown-item:focus, .dropdown-menu .dropdown-item:hover {
     background: #f5f5f5;
     text-decoration: none;
-    color: #1565c0
+    color: #498630
 }
 
 table .dropdown {
@@ -12430,7 +12430,7 @@ table .dropdown {
 }
 
 .badge.badge-primary {
-    background: #1565c0
+    background: #498630
 }
 
 .badge.badge-light {
@@ -12519,7 +12519,7 @@ table .dropdown {
 }
 
 .accordion.custom-accordion .accordion-row .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion-header.list-group-item.active:focus, .accordion.custom-accordion .accordion-row .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion-header.list-group-item.active:hover, .accordion.custom-accordion .accordion-row .header form .input-group .input-group-append button.accordion-header.btn:focus, .accordion.custom-accordion .accordion-row .header form .input-group .input-group-append button.accordion-header.btn:hover, .accordion.custom-accordion .accordion-row a.accordion-header:focus, .accordion.custom-accordion .accordion-row a.accordion-header:hover, .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion.custom-accordion .accordion-row .accordion-header.list-group-item.active:focus, .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion.custom-accordion .accordion-row .accordion-header.list-group-item.active:hover, .header form .input-group .input-group-append .accordion.custom-accordion .accordion-row button.accordion-header.btn:focus, .header form .input-group .input-group-append .accordion.custom-accordion .accordion-row button.accordion-header.btn:hover {
-    color: #1565c0
+    color: #498630
 }
 
 .accordion.custom-accordion .accordion-row .accordion-body {
@@ -12548,7 +12548,7 @@ table .dropdown {
 }
 
 .accordion.custom-accordion.accordion-primary .accordion-row:not(.open) .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion-header.list-group-item.active:focus, .accordion.custom-accordion.accordion-primary .accordion-row:not(.open) .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion-header.list-group-item.active:hover, .accordion.custom-accordion.accordion-primary .accordion-row:not(.open) .header form .input-group .input-group-append button.accordion-header.btn:focus, .accordion.custom-accordion.accordion-primary .accordion-row:not(.open) .header form .input-group .input-group-append button.accordion-header.btn:hover, .accordion.custom-accordion.accordion-primary .accordion-row:not(.open) a.accordion-header:focus, .accordion.custom-accordion.accordion-primary .accordion-row:not(.open) a.accordion-header:hover, .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion.custom-accordion.accordion-primary .accordion-row:not(.open) .accordion-header.list-group-item.active:focus, .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion.custom-accordion.accordion-primary .accordion-row:not(.open) .accordion-header.list-group-item.active:hover, .header form .input-group .input-group-append .accordion.custom-accordion.accordion-primary .accordion-row:not(.open) button.accordion-header.btn:focus, .header form .input-group .input-group-append .accordion.custom-accordion.accordion-primary .accordion-row:not(.open) button.accordion-header.btn:hover {
-    color: #1565c0
+    color: #498630
 }
 
 .accordion.custom-accordion.accordion-primary .accordion-row.open .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion-header.list-group-item.active, .accordion.custom-accordion.accordion-primary .accordion-row.open .header form .input-group .input-group-append button.accordion-header.btn, .accordion.custom-accordion.accordion-primary .accordion-row.open a.accordion-header, .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion.custom-accordion.accordion-primary .accordion-row.open .accordion-header.list-group-item.active, .header form .input-group .input-group-append .accordion.custom-accordion.accordion-primary .accordion-row.open button.accordion-header.btn {
@@ -12629,15 +12629,15 @@ body:not(.dark) .nicescroll-cursors {
 }
 
 .daterangepicker td.active {
-    background: #1565c0
+    background: #498630
 }
 
 .daterangepicker td.active:hover {
-    background: #1565c0
+    background: #498630
 }
 
 .daterangepicker .ranges li.active {
-    background: #1565c0
+    background: #498630
 }
 
 .alert {
@@ -12676,7 +12676,7 @@ body:not(.dark) .nicescroll-cursors {
 }
 
 .alert.alert-primary.alert-with-border {
-    border-left: 3px solid #1565c0!important
+    border-left: 3px solid #498630!important
 }
 
 .alert.alert-secondary {
@@ -12862,7 +12862,7 @@ body:not(.dark) .nicescroll-cursors {
 }
 
 .swal-modal .swal-button.swal-button--confirm {
-    background: #1565c0
+    background: #498630
 }
 
 .swal-modal .swal-button.swal-button--danger {
@@ -12882,19 +12882,19 @@ body:not(.dark) .nicescroll-cursors {
 }
 
 .irs .irs-from, .irs .irs-single, .irs .irs-to {
-    background: #1565c0
+    background: #498630
 }
 
 .irs .irs-from:before, .irs .irs-single:before, .irs .irs-to:before {
-    border-top-color: #1565c0
+    border-top-color: #498630
 }
 
 .irs .irs-handle {
-    border-color: #1565c0
+    border-color: #498630
 }
 
 .irs .irs-bar {
-    background: #1565c0
+    background: #498630
 }
 
 .select2 {
@@ -13084,7 +13084,7 @@ body.modal-open .modal.show .modal-dialog {
 }
 
 .wickedpicker .wickedpicker__controls__control .hover-state {
-    color: #1565c0
+    color: #498630
 }
 
 .wickedpicker .wickedpicker__title {
@@ -13165,7 +13165,7 @@ body.modal-open .modal.show .modal-dialog {
     -o-transition: color .3s;
     -moz-transition: color .3s;
     transition: color .3s;
-    color: #1565c0
+    color: #498630
 }
 
 .avatar>a:focus, .avatar>a:hover, .chat-block .chat-sidebar .chat-sidebar-content .list-group .avatar>.list-group-item.active:focus, .chat-block .chat-sidebar .chat-sidebar-content .list-group .avatar>.list-group-item.active:hover, .header form .input-group .input-group-append .avatar>button.btn:focus, .header form .input-group .input-group-append .avatar>button.btn:hover {
@@ -13243,7 +13243,7 @@ body.modal-open .modal.show .modal-dialog {
 }
 
 .avatar.avatar-state-primary:before {
-    background: #1565c0
+    background: #498630
 }
 
 .avatar.avatar-state-success:before {
@@ -13297,7 +13297,7 @@ body.modal-open .modal.show .modal-dialog {
 
 .dropzone {
     border-width: 1px;
-    border-color: #1565c0
+    border-color: #498630
 }
 
 body.form-membership {
@@ -13797,7 +13797,7 @@ body.form-membership .form-wrapper hr {
 }
 
 .fc .fc-list-table .fc-list-item.bg-primary:hover td {
-    background: #1565c0!important
+    background: #498630!important
 }
 
 .fc .fc-list-table .fc-list-item.bg-primary .fc-event-dot {
@@ -13843,13 +13843,13 @@ body.form-membership .form-wrapper hr {
 }
 
 .list-group .list-group-item.list-group-item-primary {
-    background: #1565c0!important;
+    background: #498630!important;
     color: #fff!important
 }
 
 .list-group .list-group-item.list-group-item-primary-bright {
     background: rgba(21, 101, 192, .3)!important;
-    color: #1565c0!important
+    color: #498630!important
 }
 
 .list-group .list-group-item.list-group-item-secondary {
@@ -13917,7 +13917,7 @@ body.form-membership .form-wrapper hr {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: #1565c0
+    background-color: #498630
 }
 
 .toast-title {
@@ -14140,7 +14140,7 @@ button.toast-close-button {
 }
 
 .dd-handle:hover {
-    color: #1565c0
+    color: #498630
 }
 
 .dd3-content {
@@ -14225,7 +14225,7 @@ button.toast-close-button {
 
 .app-block .app-sidebar .app-sidebar-menu .list-group .list-group-item.active {
     background: 0 0;
-    color: #1565c0
+    color: #498630
 }
 
 .app-block .app-sidebar-menu-button {
@@ -14719,7 +14719,7 @@ body.stretch-layout .header {
         position: relative
     }
     .chat-block .chat-sidebar .chat-sidebar-content .list-group body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li:hover>.list-group-item.active .nav-link-icon, .header form .input-group .input-group-append body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li:hover>button.btn .nav-link-icon, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li:hover>.list-group-item.active .nav-link-icon, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .header form .input-group .input-group-append li:hover>button.btn .nav-link-icon, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li:hover>a .nav-link-icon {
-        stroke: #1565c0
+        stroke: #498630
     }
     .chat-block .chat-sidebar .chat-sidebar-content .list-group body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>.list-group-item.active, .header form .input-group .input-group-append body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>button.btn, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open>.list-group-item.active, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .header form .input-group .input-group-append li.open>button.btn, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>a {
         -webkit-border-radius: 4px;
@@ -14765,7 +14765,7 @@ body.stretch-layout .header {
     }
     .chat-block .chat-sidebar .chat-sidebar-content .list-group .header form .input-group .input-group-append body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>button.btn+ul li.open>.list-group-item.active, .chat-block .chat-sidebar .chat-sidebar-content .list-group body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .header form .input-group .input-group-append li.open>button.btn+ul li.open>.list-group-item.active, .chat-block .chat-sidebar .chat-sidebar-content .list-group body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>.list-group-item.active+ul .header form .input-group .input-group-append li.open>button.btn, .chat-block .chat-sidebar .chat-sidebar-content .list-group body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>.list-group-item.active+ul li.open>.list-group-item.active, .chat-block .chat-sidebar .chat-sidebar-content .list-group body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>.list-group-item.active+ul li.open>a, .chat-block .chat-sidebar .chat-sidebar-content .list-group body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>a+ul li.open>.list-group-item.active, .header form .input-group .input-group-append .chat-block .chat-sidebar .chat-sidebar-content .list-group body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>.list-group-item.active+ul li.open>button.btn, .header form .input-group .input-group-append body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open>.list-group-item.active+ul li.open>button.btn, .header form .input-group .input-group-append body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>a+ul li.open>button.btn, .header form .input-group .input-group-append body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>button.btn+ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open>.list-group-item.active, .header form .input-group .input-group-append body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>button.btn+ul li.open>a, .header form .input-group .input-group-append body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>button.btn+ul li.open>button.btn, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open>.list-group-item.active+ul .header form .input-group .input-group-append li.open>button.btn, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open>.list-group-item.active+ul li.open>.list-group-item.active, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open>.list-group-item.active+ul li.open>a, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .header form .input-group .input-group-append li.open>button.btn+ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open>.list-group-item.active, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .header form .input-group .input-group-append li.open>button.btn+ul li.open>a, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .header form .input-group .input-group-append li.open>button.btn+ul li.open>button.btn, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>a+ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open>.list-group-item.active, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>a+ul .header form .input-group .input-group-append li.open>button.btn, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>a+ul li.open>a {
         background: 0 0;
-        color: #1565c0
+        color: #498630
     }
     body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open>ul {
         display: none
@@ -14937,7 +14937,7 @@ body.stretch-layout .header {
     }
     .chat-block .chat-sidebar .chat-sidebar-content .list-group body.horizontal-navigation .navigation .navigation-menu-body ul li.open>.list-group-item.active, .header form .input-group .input-group-append body.horizontal-navigation .navigation .navigation-menu-body ul li.open>button.btn, body.horizontal-navigation .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open>.list-group-item.active, body.horizontal-navigation .navigation .navigation-menu-body ul .header form .input-group .input-group-append li.open>button.btn, body.horizontal-navigation .navigation .navigation-menu-body ul li.open>a {
         background: 0 0;
-        color: #1565c0
+        color: #498630
     }
     body.horizontal-navigation .navigation .navigation-menu-body ul li.open ul {
         display: none
@@ -15111,7 +15111,7 @@ body.semi-dark:not(.dark) .navigation .navigation-menu-body ul li.navigation-div
 }
 
 body.semi-dark:not(.dark) .navigation .navigation-menu-body ul li .dropdown-divider {
-    color: #1565c0
+    color: #498630
 }
 
 body.semi-dark:not(.dark) .navigation .navigation-menu-body ul li ul {
@@ -15364,7 +15364,7 @@ code[class*=language-], pre[class*=language-] {
 
 .list-group .list-group-item.active {
     z-index: auto;
-    background: #1565c0
+    background: #498630
 }
 
 .bring-forward {
@@ -15397,7 +15397,7 @@ code[class*=language-], pre[class*=language-] {
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .table-email-list .list-group-item.active:focus, .chat-block .chat-sidebar .chat-sidebar-content .list-group .table-email-list .list-group-item.active:hover, .header form .input-group .input-group-append .table-email-list button.btn:focus, .header form .input-group .input-group-append .table-email-list button.btn:hover, .table-email-list .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active:focus, .table-email-list .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active:hover, .table-email-list .header form .input-group .input-group-append button.btn:focus, .table-email-list .header form .input-group .input-group-append button.btn:hover, .table-email-list a:focus, .table-email-list a:hover {
-    color: #1565c0
+    color: #498630
 }
 
 .read-mail-body img {
@@ -15459,11 +15459,11 @@ code[class*=language-], pre[class*=language-] {
 }
 
 .nav-pills .nav-link.active {
-    background: #1565c0
+    background: #498630
 }
 
 .nav-tabs .nav-link.active {
-    color: #1565c0
+    color: #498630
 }
 
 .chat-block .chat-content .messages .message-item.message-item-divider span, .demo-code-preview:before, .text-muted {
@@ -15631,7 +15631,7 @@ code[class*=language-], pre[class*=language-] {
 }
 
 .header .avatar.avatar-state-success:before {
-    border-color: #1565c0
+    border-color: #498630
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .header .header-app-list .list-group-item.active, .header .header-app-list .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active, .header .header-app-list a, .header .header-app-list form .input-group .input-group-append button.btn, .header form .input-group .input-group-append .header-app-list button.btn {
@@ -16013,11 +16013,11 @@ code[class*=language-], pre[class*=language-] {
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .navigation .navigation-menu-body ul li>.list-group-item.active:hover, .header form .input-group .input-group-append .navigation .navigation-menu-body ul li>button.btn:hover, .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li>.list-group-item.active:hover, .navigation .navigation-menu-body ul .header form .input-group .input-group-append li>button.btn:hover, .navigation .navigation-menu-body ul li>a:hover {
-    color: #1565c0
+    color: #498630
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .navigation .navigation-menu-body ul li>.list-group-item.active:hover .nav-link-icon, .header form .input-group .input-group-append .navigation .navigation-menu-body ul li>button.btn:hover .nav-link-icon, .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li>.list-group-item.active:hover .nav-link-icon, .navigation .navigation-menu-body ul .header form .input-group .input-group-append li>button.btn:hover .nav-link-icon, .navigation .navigation-menu-body ul li>a:hover .nav-link-icon {
-    stroke: #1565c0
+    stroke: #498630
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .navigation .navigation-menu-body ul li>.active.list-group-item, .header form .input-group .input-group-append .navigation .navigation-menu-body ul li>button.active.btn, .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li>.active.list-group-item, .navigation .navigation-menu-body ul .header form .input-group .input-group-append li>button.active.btn, .navigation .navigation-menu-body ul li>a.active {
@@ -16040,7 +16040,7 @@ code[class*=language-], pre[class*=language-] {
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: #1565c0
+    background-color: #498630
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .navigation .navigation-menu-body ul li>.list-group-item.active .sub-menu-arrow, .header form .input-group .input-group-append .navigation .navigation-menu-body ul li>button.btn .sub-menu-arrow, .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li>.list-group-item.active .sub-menu-arrow, .navigation .navigation-menu-body ul .header form .input-group .input-group-append li>button.btn .sub-menu-arrow, .navigation .navigation-menu-body ul li>a .sub-menu-arrow {
@@ -16095,7 +16095,7 @@ code[class*=language-], pre[class*=language-] {
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .navigation .navigation-menu-body ul li.open>.list-group-item.active .nav-link-icon, .header form .input-group .input-group-append .navigation .navigation-menu-body ul li.open>button.btn .nav-link-icon, .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open>.list-group-item.active .nav-link-icon, .navigation .navigation-menu-body ul .header form .input-group .input-group-append li.open>button.btn .nav-link-icon, .navigation .navigation-menu-body ul li.open>a .nav-link-icon {
-    stroke: #1565c0
+    stroke: #498630
 }
 
 .navigation .navigation-menu-body ul li.open>ul {
@@ -16270,7 +16270,7 @@ body.dark .text-divider:after {
 }
 
 body.dark .jqvmap-region {
-    fill: #1565c0
+    fill: #498630
 }
 
 body.dark input::-webkit-input-placeholder {
@@ -16381,7 +16381,7 @@ body.dark .navigation .navigation-menu-body ul li.navigation-divider {
 }
 
 body.dark .navigation .navigation-menu-body ul li .dropdown-divider {
-    color: #1565c0
+    color: #498630
 }
 
 body.dark .custom-accordion .accordion-row .accordion-header .close {
@@ -16483,7 +16483,7 @@ body.dark .alert .close:focus, body.dark .alert .close:hover {
 }
 
 .swal-modal body.dark input.swal-content__input:focus, body.dark .form-control:focus, body.dark .swal-modal input.swal-content__input:focus {
-    border-color: #1565c0!important
+    border-color: #498630!important
 }
 
 body.dark .timeline .timeline-item::before {
@@ -16814,7 +16814,7 @@ body.dark .daterangepicker td.in-range {
 
 body.dark .daterangepicker td.end-date {
     color: #fff;
-    background-color: #1565c0
+    background-color: #498630
 }
 
 body.dark .daterangepicker .drp-buttons {
