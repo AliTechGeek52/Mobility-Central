@@ -9065,7 +9065,7 @@
 }
 
 .preloader svg path {
-    fill: #1565c0
+    fill: #498630;
 }
 
 .icon-block {
@@ -9103,7 +9103,7 @@
 }
 
 .icon-block.icon-block-outline-primary {
-    border: 2px solid #1565c0;
+    border: 2px solid #498630;
     color: #1565c0!important;
     background: 0 0
 }
@@ -9334,7 +9334,7 @@ textarea {
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before, .custom-radio .custom-control-input:checked~.custom-control-label::before, .custom-switch .custom-control-input:checked~.custom-control-label::before {
-    border-color: #1565c0;
+    border-color: #498630;
     background-color: #1565c0
 }
 
@@ -9631,7 +9631,7 @@ textarea {
 }
 
 .page-header .breadcrumb li.breadcrumb-item.active {
-    color: #1565c0;
+    color: #498630;
     font-weight: 600
 }
 
@@ -10192,7 +10192,7 @@ ul.list-unstyled li ul li {
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group ul.links .active.list-group-item, .header form .input-group .input-group-append ul.links button.active.btn, ul.links .chat-block .chat-sidebar .chat-sidebar-content .list-group .active.list-group-item, ul.links .header form .input-group .input-group-append button.active.btn, ul.links a.active {
-    color: #1565c0;
+    color: #498630;
     font-weight: 500
 }
 
@@ -10455,7 +10455,7 @@ p {
 }
 
 .btn.btn-primary, .chat-block .chat-sidebar .chat-sidebar-content .list-group .btn.list-group-item.active[href="#next"], .chat-block .chat-sidebar .chat-sidebar-content .list-group .btn.list-group-item.active[href="#previous"], .header form .input-group .input-group-append button.btn[href="#next"], .header form .input-group .input-group-append button.btn[href="#previous"], a.btn[href="#next"], a.btn[href="#previous"] {
-    background: #1565c0;
+    background: #498630;
     border-color: #1565c0
 }
 
@@ -10545,14 +10545,14 @@ p {
 
 .btn.btn-outline-primary {
     background: 0 0;
-    border-color: #1565c0;
+    border-color: #498630;
     color: #0b5bb6;
     border-width: 1px
 }
 
 .btn.btn-outline-primary:not(:disabled):not(.disabled):hover {
-    background: #1565c0;
-    border-color: #1565c0;
+    background: #498630;
+    border-color: #498630;
     color: #fff
 }
 
@@ -12366,7 +12366,7 @@ p {
 }
 
 .dropdown-menu .dropdown-menu-title {
-    background-color: #1565c0;
+    background-color: #498630;
     padding: 15px 20px;
     color: #fff;
     -webkit-background-size: cover!important;
@@ -12552,7 +12552,7 @@ table .dropdown {
 }
 
 .accordion.custom-accordion.accordion-primary .accordion-row.open .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion-header.list-group-item.active, .accordion.custom-accordion.accordion-primary .accordion-row.open .header form .input-group .input-group-append button.accordion-header.btn, .accordion.custom-accordion.accordion-primary .accordion-row.open a.accordion-header, .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion.custom-accordion.accordion-primary .accordion-row.open .accordion-header.list-group-item.active, .header form .input-group .input-group-append .accordion.custom-accordion.accordion-primary .accordion-row.open button.accordion-header.btn {
-    background: #1565c0;
+    background: #498630;
     color: #fff
 }
 
@@ -12749,7 +12749,7 @@ body:not(.dark) .nicescroll-cursors {
 }
 
 .pagination .page-item.active .page-link {
-    background: #1565c0;
+    background: #498630;
     border-color: transparent
 }
 
@@ -12945,7 +12945,7 @@ body:not(.dark) .nicescroll-cursors {
 }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-    background-color: #1565c0;
+    background-color: #498630;
     color: #fff
 }
 
@@ -13549,12 +13549,12 @@ body.form-membership .form-wrapper hr {
 .chat-block .chat-content .messages .message-item.me:not(.message-item-divider):before {
     left: auto;
     right: -10px;
-    border-left-color: #1565c0;
+    border-left-color: #498630;
     border-right-color: transparent
 }
 
 .chat-block .chat-content .messages .message-item.me .message-item-content {
-    background-color: #1565c0;
+    background-color: #498630;
     color: rgba(255, 255, 255, .9)
 }
 
@@ -13732,7 +13732,7 @@ body.form-membership .form-wrapper hr {
 }
 
 .fc .fc-event {
-    background: #1565c0;
+    background: #498630;
     color: #fff!important;
     border: none;
     -webkit-border-radius: 0;
@@ -13830,7 +13830,7 @@ body.form-membership .form-wrapper hr {
 }
 
 .fc .fc-state-default.fc-state-active {
-    background: #1565c0;
+    background: #498630;
     color: #fff
 }
 
@@ -14524,7 +14524,7 @@ body:not(.stretch-layout) .app-block .app-content .app-content-body {
         right: 0
     }
     .theme-switcher .theme-switcher-button {
-        background-color: #1565c0;
+        background-color: #498630;
         color: #fff;
         padding: 12px 15px;
         -webkit-border-top-left-radius: 5px;
@@ -14559,7 +14559,7 @@ body:not(.stretch-layout) .app-block .app-content .app-content-body {
     }
     .app-block .app-content .theme-switcher .theme-switcher-panel .app-action, .theme-switcher .theme-switcher-panel .app-block .app-content .app-action, .theme-switcher .theme-switcher-panel .card, .theme-switcher .theme-switcher-panel .chat-block {
         margin-bottom: 0;
-        border: 1px solid #1565c0;
+        border: 1px solid #498630;
         border-right: none;
         -webkit-border-top-right-radius: 0;
         -moz-border-radius-topright: 0;
@@ -14789,7 +14789,7 @@ body.stretch-layout .header {
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
-        background-color: #1565c0;
+        background-color: #498630;
         position: static
     }
     .chat-block .chat-sidebar .chat-sidebar-content .list-group body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body>ul>li>.active.list-group-item .nav-link-icon, .header form .input-group .input-group-append body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body>ul>li>button.active.btn .nav-link-icon, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .chat-block .chat-sidebar .chat-sidebar-content .list-group .navigation-menu-body>ul>li>.active.list-group-item .nav-link-icon, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .header form .input-group .input-group-append .navigation-menu-body>ul>li>button.active.btn .nav-link-icon, body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body>ul>li>a.active .nav-link-icon {
@@ -15446,7 +15446,7 @@ code[class*=language-], pre[class*=language-] {
 }
 
 .list-group .list-group-item.active {
-    background: #1565c0;
+    background: #498630;
     border-color: transparent
 }
 
@@ -15821,7 +15821,7 @@ code[class*=language-], pre[class*=language-] {
 }
 
 .navigation .navigation-menu-tab {
-    background-color: #1565c0;
+    background-color: #498630;
     width: 75px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -15971,7 +15971,7 @@ code[class*=language-], pre[class*=language-] {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    color: #1565c0;
+    color: #498630;
     letter-spacing: .5px;
     margin-top: 10px;
     margin-bottom: 10px
@@ -16022,7 +16022,7 @@ code[class*=language-], pre[class*=language-] {
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .navigation .navigation-menu-body ul li>.active.list-group-item, .header form .input-group .input-group-append .navigation .navigation-menu-body ul li>button.active.btn, .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li>.active.list-group-item, .navigation .navigation-menu-body ul .header form .input-group .input-group-append li>button.active.btn, .navigation .navigation-menu-body ul li>a.active {
     position: relative;
-    color: #1565c0;
+    color: #498630;
     font-weight: 600
 }
 
@@ -16090,7 +16090,7 @@ code[class*=language-], pre[class*=language-] {
 }
 
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .navigation .navigation-menu-body ul li.open>.list-group-item.active, .header form .input-group .input-group-append .navigation .navigation-menu-body ul li.open>button.btn, .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open>.list-group-item.active, .navigation .navigation-menu-body ul .header form .input-group .input-group-append li.open>button.btn, .navigation .navigation-menu-body ul li.open>a {
-    color: #1565c0;
+    color: #498630;
     font-weight: 600
 }
 
@@ -16111,7 +16111,7 @@ code[class*=language-], pre[class*=language-] {
     display: inline-block;
     width: 5px;
     height: 5px;
-    background-color: #1565c0;
+    background-color: #498630;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -16836,7 +16836,7 @@ body.dark .daterangepicker td.off.in-range {
 }
 
 body.dark .daterangepicker td.available:hover, body.dark .daterangepicker th.available:hover {
-    background-color: #1565c0;
+    background-color: #498630;
     color: #fff
 }
 
