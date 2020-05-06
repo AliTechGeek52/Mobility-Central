@@ -1119,12 +1119,16 @@
                                       <button
                                         type="button"
                                         class="btn btn-primary mr-2"
+                                        data-toggle="modal"
+                                        data-target="#add-device"
                                       >
                                         Add Devices Packages
                                       </button>
                                       <button
                                         type="button"
                                         class="btn btn-primary mr-2"
+                                        data-toggle="modal"
+                                        data-target="#add-service"
                                       >
                                         Add Services Packages
                                       </button>
@@ -1180,6 +1184,712 @@
                                               data-dismiss="modal"
                                             >
                                               OK
+                                            </button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="modal fade"
+                                      id="add-device"
+                                      tabindex="-1"
+                                      role="dialog"
+                                      aria-hidden="true"
+                                    >
+                                      <div
+                                        class="modal-dialog modal-dialog-centered modal-xl"
+                                        role="document"
+                                      >
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h5
+                                              class="modal-title"
+                                              id="exampleModalCenterTitle"
+                                            >
+                                              Add Devices Mobility Package
+                                            </h5>
+                                            <button
+                                              type="button"
+                                              class="close"
+                                              data-dismiss="modal"
+                                              aria-label="Close"
+                                            >
+                                              <i class="ti-close"></i>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <div class="table-responsive">
+                                              <table
+                                                class="table table-bordered"
+                                              >
+                                                <tbody>
+                                                  <tr>
+                                                    <td>
+                                                      <form>
+                                                        <div
+                                                          class="form-group row"
+                                                        >
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >Name:</label
+                                                          >
+                                                          <div class="col-sm-8">
+                                                            <input
+                                                              type="email"
+                                                              class="form-control form-control-sm"
+                                                              id="inputEmail3"
+                                                              placeholder="Name"
+                                                            />
+                                                            <label
+                                                              class="form-check-label"
+                                                              for="exampleCheck1"
+                                                              >( Ex: Sprint
+                                                              Executive - U.S.
+                                                              only, AT&T Highly
+                                                              Mobile - West
+                                                              )</label
+                                                            >
+                                                          </div>
+                                                        </div>
+                                                        <div
+                                                          class="form-group row"
+                                                        >
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >Select
+                                                            Devices:</label
+                                                          >
+                                                          <div class="col-sm-8">
+                                                            <table>
+                                                              <tr>
+                                                                <td>
+                                                                  <label
+                                                                    for="inputEmail3"
+                                                                    class="col-sm-4 col-form-label"
+                                                                    >Available
+                                                                    Devices</label
+                                                                  >
+                                                                </td>
+                                                                <td>
+                                                                  <label
+                                                                    for="inputEmail3"
+                                                                    class="col-sm-4 col-form-label"
+                                                                    >Selected
+                                                                    Devices</label
+                                                                  >
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td>
+                                                                  <textarea
+                                                                    id="inputEmail3"
+                                                                    cols="60"
+                                                                    rows="10"
+                                                                    class="form-control form-control-sm"
+                                                                  ></textarea>
+                                                                </td>
+                                                                <td>
+                                                                  <textarea
+                                                                    id="inputEmail3"
+                                                                    cols="60"
+                                                                    rows="10"
+                                                                    class="form-control form-control-sm"
+                                                                  ></textarea>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </div>
+                                                        </div>
+                                                        <div
+                                                          class="form-group row"
+                                                        >
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >Select Accessories:
+                                                          </label>
+                                                          <div class="col-sm-8">
+                                                            <table>
+                                                              <tr>
+                                                                <td>
+                                                                  <label
+                                                                    for="inputEmail3"
+                                                                    class="col-sm-4 col-form-label"
+                                                                    >Available
+                                                                    Accessories</label
+                                                                  >
+                                                                </td>
+                                                                <td>
+                                                                  <label
+                                                                    for="inputEmail3"
+                                                                    class="col-sm-4 col-form-label"
+                                                                    >Selected
+                                                                    Accessories</label
+                                                                  >
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td>
+                                                                  <textarea
+                                                                    id="inputEmail3"
+                                                                    cols="60"
+                                                                    rows="10"
+                                                                    class="form-control form-control-sm"
+                                                                  ></textarea>
+                                                                </td>
+                                                                <td>
+                                                                  <textarea
+                                                                    id="inputEmail3"
+                                                                    cols="60"
+                                                                    rows="10"
+                                                                    class="form-control form-control-sm"
+                                                                  ></textarea>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </div>
+                                                        </div>
+                                                      </form>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <p class="card-para">
+                                                        Service Options
+                                                        (domestic, intl,
+                                                        apps/services) below can
+                                                        be specified at the
+                                                        company level or at the
+                                                        mobility package level.
+                                                        The options below apply
+                                                        only when mobility group
+                                                        is set to use them.
+                                                      </p>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <div
+                                                        class="form-group row"
+                                                      >
+                                                        <label
+                                                          for="inputEmail3"
+                                                          class="col-sm-4 col-form-label"
+                                                          >Voice:</label
+                                                        >
+                                                        <div class="col-sm-8">
+                                                          <input
+                                                            type="email"
+                                                            class="form-control form-control-sm"
+                                                            id="inputEmail3"
+                                                            placeholder="Title"
+                                                          />
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >minutes:</label
+                                                          >
+                                                          <input
+                                                            type="email"
+                                                            class="form-control form-control-sm"
+                                                            id="inputEmail3"
+                                                            placeholder="Title"
+                                                          />
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >minutes:</label
+                                                          >
+                                                          <input
+                                                            type="email"
+                                                            class="form-control form-control-sm"
+                                                            id="inputEmail3"
+                                                            placeholder="Title"
+                                                          />
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >minutes:</label
+                                                          >
+                                                        </div>
+                                                      </div>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <div
+                                                        class="form-group row"
+                                                      >
+                                                        <label
+                                                          for="inputEmail3"
+                                                          class="col-sm-4 col-form-label"
+                                                          >Data:</label
+                                                        >
+                                                        <div class="col-sm-8">
+                                                          <div
+                                                            class="form-group"
+                                                          >
+                                                            <input
+                                                              type="email"
+                                                              class="form-control form-control-sm"
+                                                              id="inputEmail3"
+                                                              placeholder="Title"
+                                                            />
+                                                            <select
+                                                              class="custom-select custom-select-sm col-sm-2"
+                                                            >
+                                                              <option selected
+                                                                >GB</option
+                                                              >
+                                                              <option value="1"
+                                                                >KB</option
+                                                              >
+                                                              <option value="2"
+                                                                >MB</option
+                                                              >
+                                                            </select>
+                                                          </div>
+                                                          <div
+                                                            class="form-group"
+                                                          >
+                                                            <input
+                                                              type="email"
+                                                              class="form-control form-control-sm"
+                                                              id="inputEmail3"
+                                                              placeholder="Title"
+                                                            />
+                                                            <select
+                                                              class="custom-select custom-select-sm col-sm-2"
+                                                            >
+                                                              <option selected
+                                                                >GB</option
+                                                              >
+                                                              <option value="1"
+                                                                >KB</option
+                                                              >
+                                                              <option value="2"
+                                                                >MB</option
+                                                              >
+                                                            </select>
+                                                          </div>
+                                                          <div
+                                                            class="form-group"
+                                                          >
+                                                            <input
+                                                              type="email"
+                                                              class="form-control form-control-sm"
+                                                              id="inputEmail3"
+                                                              placeholder="Title"
+                                                            />
+                                                            <select
+                                                              class="custom-select custom-select-sm col-sm-2"
+                                                            >
+                                                              <option selected
+                                                                >GB</option
+                                                              >
+                                                              <option value="1"
+                                                                >KB</option
+                                                              >
+                                                              <option value="2"
+                                                                >MB</option
+                                                              >
+                                                            </select>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <div
+                                                        class="form-group row"
+                                                      >
+                                                        <label
+                                                          for="inputEmail3"
+                                                          class="col-sm-4 col-form-label"
+                                                          >Messages:</label
+                                                        >
+                                                        <div class="col-sm-8">
+                                                          <input
+                                                            type="email"
+                                                            class="form-control form-control-sm"
+                                                            id="inputEmail3"
+                                                            placeholder="Title"
+                                                          />
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >Messages</label
+                                                          >
+                                                          <input
+                                                            type="email"
+                                                            class="form-control form-control-sm"
+                                                            id="inputEmail3"
+                                                            placeholder="Title"
+                                                          />
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >Messages</label
+                                                          >
+                                                          <input
+                                                            type="email"
+                                                            class="form-control form-control-sm"
+                                                            id="inputEmail3"
+                                                            placeholder="Title"
+                                                          />
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >Messages</label
+                                                          >
+                                                        </div>
+                                                      </div>
+                                                    </td>
+                                                  </tr> 
+                                                  <tr>
+                                                    <td>
+                                                      <div
+                                                        class="form-group row"
+                                                      >
+                                                        <label
+                                                          for="inputEmail3"
+                                                          class="col-sm-4 col-form-label"
+                                                          >Apps/Features:</label
+                                                        >
+                                                        <div class="col-sm-8">
+                                                          
+                                                          <input
+                                                            type="email"
+                                                            class="form-control form-control-sm"
+                                                            id="inputEmail3"
+                                                            placeholder="Title"
+                                                          />
+                                                          <label
+                                                          for="inputEmail3"
+                                                          class="col-sm-4 col-form-label"
+                                                          ></label
+                                                        >
+                                                          <input
+                                                            type="email"
+                                                            class="form-control form-control-sm"
+                                                            id="inputEmail3"
+                                                            placeholder="Title"
+                                                          />
+                                                          <button type="button" class="btn btn-info">Add</button>
+                                                          <button type="button" class="btn btn-info">Delete</button>
+                                                        </div>
+                                                      </div>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td><h6 class="card-title">International Roaming Options</h6></td>
+                                                  </tr>
+                                                  <tr><td>
+                                                    <div class="col-sm-8">
+                                                      <label
+                                                          for="inputEmail3"
+                                                          class="col-sm-4 col-form-label"
+                                                          >Intl Roaming:</label
+                                                        >
+                                                        
+                                                          <div class="custom-control custom-radio">
+                                                              <input type="radio" id="customRadio" name="customRadio" class="custom-control-input">
+                                                              <label class="custom-control-label" for="customRadio">Yes</label>
+                                                          </div>
+                                                     
+                                                      
+                                                          <div class="custom-control custom-radio">
+                                                              <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                                              <label class="custom-control-label" for="customRadio1">No</label>
+                                                          </div>
+                                                      
+                                                        </div>
+                                                        <div class="col-sm-8">
+                                                        <label
+                                                          for="inputEmail3"
+                                                          class="col-sm-4 col-form-label"
+                                                          >Intl LD:</label
+                                                        >
+                                                        <div class="custom-control custom-radio">
+                                                          <input type="radio" id="customRadio2" name="customRadio2" class="custom-control-input">
+                                                          <label class="custom-control-label" for="customRadio2">Yes</label>
+                                                      </div>
+                                                 
+                                                  
+                                                      <div class="custom-control custom-radio">
+                                                          <input type="radio" id="customRadio3" name="customRadio2" class="custom-control-input">
+                                                          <label class="custom-control-label" for="customRadio3">No</label>
+                                                      </div>
+                                                        </div>
+                                                        <div class="col-sm-8">
+                                                        <label
+                                                          for="inputEmail3"
+                                                          class="col-sm-4 col-form-label"
+                                                          >Canada Roaming & LD:</label
+                                                        >
+                                                        <div class="custom-control custom-radio">
+                                                          <input type="radio" id="customRadio4" name="customRadio3" class="custom-control-input">
+                                                          <label class="custom-control-label" for="customRadio4">Yes</label>
+                                                      </div>
+                                                 
+                                                  
+                                                      <div class="custom-control custom-radio">
+                                                          <input type="radio" id="customRadio5" name="customRadio3" class="custom-control-input">
+                                                          <label class="custom-control-label" for="customRadio5">No</label>
+                                                      </div>
+                                                        </div>
+                                                        <div class="col-sm-8">
+                                                        <label
+                                                          for="inputEmail3"
+                                                          class="col-sm-4 col-form-label"
+                                                          >Mexico Roaming & LD:</label
+                                                        >
+                                                        <div class="custom-control custom-radio">
+                                                          <input type="radio" id="customRadio6" name="customRadio4" class="custom-control-input">
+                                                          <label class="custom-control-label" for="customRadio6">Yes</label>
+                                                      </div>
+                                                 
+                                                  
+                                                      <div class="custom-control custom-radio">
+                                                        <input type="radio" id="customRadio7" name="customRadio4" class="custom-control-input">
+                                                        <label class="custom-control-label" for="customRadio7">No</label>
+                                                      </div>
+                                                  </td></tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button
+                                              type="button"
+                                              class="btn btn-secondary"
+                                              data-dismiss="modal"
+                                            >
+                                              Save
+                                            </button>
+                                            <button
+                                              type="button"
+                                              class="btn btn-secondary"
+                                              data-dismiss="modal"
+                                            >
+                                              Cancel
+                                            </button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="modal fade"
+                                      id="add-service"
+                                      tabindex="-1"
+                                      role="dialog"
+                                      aria-hidden="true"
+                                    >
+                                      <div
+                                        class="modal-dialog modal-dialog-centered modal-xl"
+                                        role="document"
+                                      >
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h5
+                                              class="modal-title"
+                                              id="exampleModalCenterTitle"
+                                            >
+                                            Add Services Mobility Package
+                                            </h5>
+                                            <button
+                                              type="button"
+                                              class="close"
+                                              data-dismiss="modal"
+                                              aria-label="Close"
+                                            >
+                                              <i class="ti-close"></i>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <div class="table-responsive">
+                                              <table
+                                                class="table table-bordered"
+                                              >
+                                                <tbody>
+                                                  <tr>
+                                                    <td>
+                                                      <form>
+                                                        <div
+                                                          class="form-group row"
+                                                        >
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >Name:</label
+                                                          >
+                                                          <div class="col-sm-8">
+                                                            <input
+                                                              type="email"
+                                                              class="form-control form-control-sm"
+                                                              id="inputEmail3"
+                                                              placeholder="Name"
+                                                            />
+                                                            <label
+                                                              class="form-check-label"
+                                                              for="exampleCheck1"
+                                                              >(Ex: AT&T Domestic Smartphone Package, Verizon Intl Traveler Smartphone Package)</label
+                                                            >
+                                                          </div>
+                                                        </div>
+                                                        <div
+                                                          class="form-group row"
+                                                        >
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >Carrier:</label
+                                                          >
+                                                          <div class="col-sm-8">
+                                                            <select class="custom-select custom-select-sm">
+                                                              <option selected>Select...</option>
+                                                              <option value="1">AT&T Mobile</option>
+                                                              <option value="2">Verizon Wireless</option>
+                                                            </select>
+                                                          </div>
+                                                        </div>
+                                                        <div
+                                                          class="form-group row"
+                                                        >
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >Device Type:</label
+                                                          >
+                                                          <div class="col-sm-8">
+                                                            <select class="custom-select custom-select-sm">
+                                                              <option selected>All...</option>
+                                                              <option value="1">Basic Phone</option>
+                                                              <option value="2">Fax</option>
+                                                              <option value="3">...</option>
+
+                                                            </select>
+                                                          </div>
+                                                        </div>
+                                                        <div
+                                                          class="form-group row"
+                                                        >
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >Select Plan(s):
+                                                            </label
+                                                          >
+                                                          <div class="col-sm-8">
+                                                            <table>
+                                                              <tr>
+                                                                <td>
+                                                                  <label
+                                                                    for="inputEmail3"
+                                                                    class="col-sm-4 col-form-label"
+                                                                    >Available Plans</label
+                                                                  >
+                                                                </td>
+                                                                <td>
+                                                                  <label
+                                                                    for="inputEmail3"
+                                                                    class="col-sm-4 col-form-label"
+                                                                    > Selected Plans</label
+                                                                  >
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td>
+                                                                  <textarea
+                                                                    id="inputEmail3"
+                                                                    cols="60"
+                                                                    rows="10"
+                                                                    class="form-control form-control-sm"
+                                                                  ></textarea>
+                                                                </td>
+                                                                <td>
+                                                                  <textarea
+                                                                    id="inputEmail3"
+                                                                    cols="60"
+                                                                    rows="10"
+                                                                    class="form-control form-control-sm"
+                                                                  ></textarea>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </div>
+                                                        </div>
+                                                        <div
+                                                          class="form-group row"
+                                                        >
+                                                          <label
+                                                            for="inputEmail3"
+                                                            class="col-sm-4 col-form-label"
+                                                            >Select Feature(s):
+                                                          </label>
+                                                          <div class="col-sm-8">
+                                                            <table>
+                                                              <tr>
+                                                                <td>
+                                                                  <label
+                                                                    for="inputEmail3"
+                                                                    class="col-sm-4 col-form-label"
+                                                                    >Available Features</label
+                                                                  >
+                                                                </td>
+                                                                <td>
+                                                                  <label
+                                                                    for="inputEmail3"
+                                                                    class="col-sm-4 col-form-label"
+                                                                    >Selected Features</label
+                                                                  >
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td>
+                                                                  <textarea
+                                                                    id="inputEmail3"
+                                                                    cols="60"
+                                                                    rows="10"
+                                                                    class="form-control form-control-sm"
+                                                                  ></textarea>
+                                                                </td>
+                                                                <td>
+                                                                  <textarea
+                                                                    id="inputEmail3"
+                                                                    cols="60"
+                                                                    rows="10"
+                                                                    class="form-control form-control-sm"
+                                                                  ></textarea>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </div>
+                                                        </div>
+                                                      </form>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button
+                                              type="button"
+                                              class="btn btn-secondary"
+                                              data-dismiss="modal"
+                                            >
+                                              Save
+                                            </button>
+                                            <button
+                                              type="button"
+                                              class="btn btn-secondary"
+                                              data-dismiss="modal"
+                                            >
+                                              Cancel
                                             </button>
                                           </div>
                                         </div>
@@ -1517,7 +2227,7 @@
                                 </div>
                               </div>
                             </div>
-                            <div class="card" style="display:none;">
+                            <div class="card" style="display: none;">
                               <div class="card-body">
                                 <div
                                   id="line-chart"
@@ -2239,11 +2949,11 @@
     <script src="assets/js/examples/datatable.js"></script>
     <!---script for datatable---->
     <script>
-      $(document).ready(function() {
+      $(document).ready(function () {
         $("#example1").DataTable();
         $("#example2").DataTable();
       });
-      $(document).ready(function() {
+      $(document).ready(function () {
         $("#alertsoverview").DataTable();
       });
     </script>
